@@ -66,18 +66,6 @@ My interests lie at the intersection of **artificial intelligence, blockchain te
 
 <img src="assets/divider.svg" width="100%" alt="divider" />
 
-## 📸 Screenshots
-
-<div align="center">
-
-| 🏠 Hero | 🚀 Projects |
-|:---:|:---:|
-| <img src="docs/screenshots/hero.png" width="440" alt="Portfolio hero section" /> | <img src="docs/screenshots/projects.png" width="440" alt="Portfolio projects section" /> |
-
-</div>
-
----
-
 <img src="assets/divider.svg" width="100%" alt="divider" />
 
 ## 🧭 Portfolio Sections
