@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-label="Terminal card with Abu Huraira's details">
+  <defs>
+    <linearGradient id="vio" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#6366F1"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#C084FC"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.4 0;0.4 0;-0.4 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="scanBand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0.12"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1000" height="420" rx="16"/></clipPath>
+
+    <clipPath id="c0"><rect x="40" y="68" width="0" height="28"><animate attributeName="width" values="0;0;100;100;0;0" keyTimes="0;0.0273;0.0728;0.91;0.93;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c1"><rect x="40" y="98" width="0" height="28"><animate attributeName="width" values="0;0;348;348;0;0" keyTimes="0;0.0955;0.1410;0.91;0.93;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="40" y="128" width="0" height="28"><animate attributeName="width" values="0;0;205;205;0;0" keyTimes="0;0.1636;0.2091;0.91;0.93;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="40" y="158" width="0" height="28"><animate attributeName="width" values="0;0;535;535;0;0" keyTimes="0;0.2318;0.2773;0.91;0.93;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c4"><rect x="40" y="188" width="0" height="28"><animate attributeName="width" values="0;0;205;205;0;0" keyTimes="0;0.3;0.3455;0.91;0.93;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c5"><rect x="40" y="218" width="0" height="28"><animate attributeName="width" values="0;0;365;365;0;0" keyTimes="0;0.3682;0.4137;0.91;0.93;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c6"><rect x="40" y="248" width="0" height="28"><animate attributeName="width" values="0;0;178;178;0;0" keyTimes="0;0.4364;0.4819;0.91;0.93;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c7"><rect x="40" y="278" width="0" height="28"><animate attributeName="width" values="0;0;765;765;0;0" keyTimes="0;0.5045;0.5500;0.91;0.93;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c8"><rect x="40" y="308" width="0" height="28"><animate attributeName="width" values="0;0;100;100;0;0" keyTimes="0;0.5727;0.6182;0.91;0.93;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c9"><rect x="40" y="338" width="0" height="28"><animate attributeName="width" values="0;0;540;540;0;0" keyTimes="0;0.6409;0.6864;0.91;0.93;1" dur="22s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <style>
+    @keyframes blink { 50% { opacity: 0; } }
+    .cur { animation: blink 1s steps(1) infinite; }
+    .m { font-family: Consolas, 'Courier New', monospace; font-size: 16px; }
+    .cmd { fill: #FFFFFF; }
+    .out { fill: #C4B5FD; }
+    .p { fill: #8B5CF6; }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1000" height="420" fill="#07060F"/>
+    <rect width="1000" height="44" fill="#0F0D24"/>
+    <circle cx="26" cy="22" r="6" fill="#6366F1"/>
+    <circle cx="48" cy="22" r="6" fill="#8B5CF6"/>
+    <circle cx="70" cy="22" r="6" fill="#A78BFA"/>
+    <text x="500" y="27" text-anchor="middle" class="m" font-size="13" fill="#8B88B8">abu@huraira-labs: ~/portfolio</text>
+
+    <rect x="0" y="-60" width="1000" height="60" fill="url(#scanBand)">
+      <animate attributeName="y" from="-60" to="420" dur="6s" repeatCount="indefinite"/>
+    </rect>
+
+    <g clip-path="url(#c0)"><text x="40" y="88" class="m"><tspan class="p">$</tspan> <tspan class="cmd">whoami</tspan></text></g>
+    <g clip-path="url(#c1)"><text x="40" y="118" class="m out">abu_huraira // Full Stack Developer</text></g>
+    <g clip-path="url(#c2)"><text x="40" y="148" class="m"><tspan class="p">$</tspan> <tspan class="cmd">cat education.txt</tspan></text></g>
+    <g clip-path="url(#c3)"><text x="40" y="178" class="m out">BS Artificial Intelligence @ Minhaj University Lahore</text></g>
+    <g clip-path="url(#c4)"><text x="40" y="208" class="m"><tspan class="p">$</tspan> <tspan class="cmd">cat interests.txt</tspan></text></g>
+    <g clip-path="url(#c5)"><text x="40" y="238" class="m out">AI + Blockchain + Autonomous Agents</text></g>
+    <g clip-path="url(#c6)"><text x="40" y="268" class="m"><tspan class="p">$</tspan> <tspan class="cmd">./stack --list</tspan></text></g>
+    <g clip-path="url(#c7)"><text x="40" y="298" class="m out">Python | C++ | Django | FastAPI | Next.js | React | React Native | JavaScript</text></g>
+    <g clip-path="url(#c8)"><text x="40" y="328" class="m"><tspan class="p">$</tspan> <tspan class="cmd">status</tspan></text></g>
+    <g clip-path="url(#c9)"><text x="40" y="358" class="m out">learning: Django backend | building: full-stack products</text></g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.705;0.72;0.91;0.93;1" dur="22s" repeatCount="indefinite"/>
+      <text x="40" y="388" class="m p">$</text>
+      <rect class="cur" x="60" y="374" width="9" height="18" fill="#C4B5FD"/>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="998" height="418" rx="16" fill="none" stroke="url(#vio)" stroke-width="2"/>
+</svg>
