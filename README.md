@@ -1,12 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,45:6366F1,100:A78BFA&height=280&section=header&text=Abu%20Huraira&fontSize=74&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Full%20Stack%20Developer%20%7C%20AI%20Engineer%20%7C%20Huraira%20Labs&descSize=22&descAlignY=58" width="100%" alt="Abu Huraira portfolio banner" />
-
 <a href="https://huraira-labs.vercel.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1100&color=8B5CF6&center=true&vCenter=true&width=880&height=50&lines=Welcome+to+my+portfolio+%E2%9C%A8;Full+Stack+Developer+%F0%9F%92%BB;BS+AI+Student+at+Minhaj+University+Lahore+%F0%9F%8E%93;AI+%E2%80%A2+Blockchain+%E2%80%A2+Autonomous+Agents+%F0%9F%A4%96" alt="Typing animation" />
+  <img src="assets/hero.svg" width="100%" alt="Abu Huraira - Full Stack Developer and AI Engineer" />
 </a>
 
-<br/><br/>
+<br/>
 
 [![Live Portfolio](https://img.shields.io/badge/%F0%9F%8C%90_LIVE_PORTFOLIO-huraira--labs.vercel.app-8B5CF6?style=for-the-badge)](https://huraira-labs.vercel.app/)
 [![Hire Me](https://img.shields.io/badge/%E2%9A%A1_HIRE_ME-Get_in_touch-6366F1?style=for-the-badge)](https://huraira-labs.vercel.app/)
@@ -27,11 +25,11 @@
 &nbsp;•&nbsp;
 <a href="#-getting-started"><b>🚀 Get Started</b></a>
 &nbsp;•&nbsp;
-<a href="#-deployment"><b>☁️ Deploy</b></a>
+<a href="#️-deployment"><b>☁️ Deploy</b></a>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366F1,100:A78BFA&height=3&section=header" width="100%" alt="divider" />
+<img src="assets/divider.svg" width="100%" alt="divider" />
 
 ## 📑 Table of Contents
 
@@ -48,7 +46,7 @@
 - [☁️ Deployment](#️-deployment)
 - [👨‍💻 Author](#-author)
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366F1,100:A78BFA&height=3&section=header" width="100%" alt="divider" />
+<img src="assets/divider.svg" width="100%" alt="divider" />
 
 ## 🌟 About
 
@@ -60,13 +58,27 @@ My interests lie at the intersection of **artificial intelligence, blockchain te
 
 <div align="center">
 
-| 🎓 **Education** | 💻 **Focus** | 🤖 **Interests** |
-|:---:|:---:|:---:|
-| BS Artificial Intelligence | Full-stack web development | AI, blockchain & autonomous agents |
+<img src="assets/terminal.svg" width="90%" alt="Terminal card with details about Abu Huraira" />
 
 </div>
 
 ---
+
+<img src="assets/divider.svg" width="100%" alt="divider" />
+
+## 📸 Screenshots
+
+<div align="center">
+
+| 🏠 Hero | 🚀 Projects |
+|:---:|:---:|
+| <img src="docs/screenshots/hero.png" width="440" alt="Portfolio hero section" /> | <img src="docs/screenshots/projects.png" width="440" alt="Portfolio projects section" /> |
+
+</div>
+
+---
+
+<img src="assets/divider.svg" width="100%" alt="divider" />
 
 ## 🧭 Portfolio Sections
 
@@ -80,6 +92,8 @@ My interests lie at the intersection of **artificial intelligence, blockchain te
 | ✉️ **Contact** | A working contact form that delivers email straight to my inbox |
 
 ---
+
+<img src="assets/divider.svg" width="100%" alt="divider" />
 
 ## ✨ Features
 
@@ -97,6 +111,8 @@ My interests lie at the intersection of **artificial intelligence, blockchain te
 
 ---
 
+<img src="assets/divider.svg" width="100%" alt="divider" />
+
 ## 🚀 Projects Showcased
 
 | Project | Highlights |
@@ -106,6 +122,8 @@ My interests lie at the intersection of **artificial intelligence, blockchain te
 | 🌐 **Django REST API Backend** | A scalable REST API with Django and PostgreSQL, featuring JWT authentication, role-based access control, API documentation, Docker, and CI/CD. |
 
 ---
+
+<img src="assets/divider.svg" width="100%" alt="divider" />
 
 ## 🛠️ Tech Stack
 
@@ -123,6 +141,8 @@ My interests lie at the intersection of **artificial intelligence, blockchain te
 | ☁️ **Hosting** | Vercel |
 
 ---
+
+<img src="assets/divider.svg" width="100%" alt="divider" />
 
 ## 🏗️ Architecture
 
@@ -148,6 +168,8 @@ The contact form sends two emails:
 
 ---
 
+<img src="assets/divider.svg" width="100%" alt="divider" />
+
 ## 📂 Project Structure
 
 ```text
@@ -162,6 +184,7 @@ YOUR-REPO-NAME/
 │   └── dummy-data.ts         # Projects & skills content
 ├── public/
 │   └── resume.pdf            # Downloadable resume
+├── assets/                   # Animated README graphics (SVG)
 ├── docs/
 │   └── screenshots/          # README images
 ├── .env.example              # Environment variable template
@@ -172,6 +195,8 @@ YOUR-REPO-NAME/
 > Other components and pages live alongside these folders.
 
 ---
+
+<img src="assets/divider.svg" width="100%" alt="divider" />
 
 ## 🚀 Getting Started
 
@@ -215,6 +240,8 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ---
 
+<img src="assets/divider.svg" width="100%" alt="divider" />
+
 ## 🔐 Environment Variables
 
 Set these in `.env.local` (local) **and** in Vercel (production):
@@ -240,6 +267,8 @@ Set these in `.env.local` (local) **and** in Vercel (production):
 
 ---
 
+<img src="assets/divider.svg" width="100%" alt="divider" />
+
 ## ☁️ Deployment
 
 1. Push this project to GitHub.
@@ -250,6 +279,8 @@ Set these in `.env.local` (local) **and** in Vercel (production):
 🌐 **Production URL:** [https://huraira-labs.vercel.app](https://huraira-labs.vercel.app/)
 
 ---
+
+<img src="assets/divider.svg" width="100%" alt="divider" />
 
 ## 👨‍💻 Author
 
@@ -265,6 +296,6 @@ Set these in `.env.local` (local) **and** in Vercel (production):
 
 ⭐ **If you like this portfolio, give it a star!** ⭐
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,45:6366F1,100:A78BFA&height=150&section=footer" width="100%" alt="footer" />
+<img src="assets/divider.svg" width="100%" alt="divider" />
 
 </div>
